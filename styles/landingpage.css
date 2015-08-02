@@ -63,12 +63,14 @@ span.job {
 a {
 	color: #2f2f2f;
 	text-decoration: none;
+	
+	transition: all 1s;
 }
 
 a:hover{
 	opacity: .5;
 	
-	transition: all 0.25s;
+	transition: all 0.2s;
 }
 
 #first {

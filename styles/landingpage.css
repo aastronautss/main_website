@@ -1,0 +1,89 @@
+@font-face {
+	font-family: Century;
+	src: url("fonts/CENSCBK.TTF");
+}
+
+body {
+	background-color: #606060;
+}
+
+div {
+	display: block;
+	position: absolute;
+	font-family: serif;
+	text-align: center;
+}
+
+div.main {
+	top: 200px;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 600px;
+}
+
+div.contentLine {
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+span {
+	position: relative;
+	display: inline;
+}
+
+span.name{
+	font-family: Century;
+	font-size: 60px;
+	color: #262626;
+	
+	vertical-align: baseline;
+}
+
+span.italic {
+	font-style: italic;
+	font-size: 35px;
+	color: #444;
+	
+	vertical-align: top;
+}
+
+span.job {
+	font-family: Century;
+	font-size: 50px;
+	color: #2f2f2f;
+	
+	padding-left: 5px;
+	vertical-align: baseline;
+}
+
+a {
+	color: #2f2f2f;
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: .5;
+}
+
+#first {
+	margin-left: -70px;
+}
+
+#second {
+	margin-top: -13px;
+	margin-left: 220px;
+}
+
+#third{
+	margin-top: -13px;
+	margin-left: 100px;
+}
+
+#fourth {
+	margin-top: -13px;
+	margin-left: 350px;
+}

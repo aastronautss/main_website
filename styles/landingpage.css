@@ -37,7 +37,7 @@ span {
 
 span.name{
 	font-family: Century;
-	font-size: 60px;
+	font-size: 65px;
 	color: #262626;
 	
 	vertical-align: baseline;
@@ -67,23 +67,25 @@ a {
 
 a:hover{
 	opacity: .5;
+	
+	transition: all 0.25s;
 }
 
 #first {
-	margin-left: -70px;
+	margin-left: -250px;
 }
 
 #second {
 	margin-top: -13px;
-	margin-left: 220px;
+	margin-left: 20px;
 }
 
 #third{
 	margin-top: -13px;
-	margin-left: 100px;
+	margin-left: -75px;
 }
 
 #fourth {
 	margin-top: -13px;
-	margin-left: 350px;
+	margin-left: 250px;
 }

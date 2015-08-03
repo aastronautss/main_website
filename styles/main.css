@@ -82,7 +82,7 @@ li.navactive {
 	padding-right: 10px;
 	max-width: 300px;
 	min-width: 200px;
-	text-align: center;
+	text-align: right;
 	/*float: left;*/
 	/*clear: right;*/
 	
@@ -113,7 +113,7 @@ div#leftnav {
 	padding: 20px 10px 0 10px;
 	max-width: 300px;
 	min-width: 200px;
-	text-align: center;
+	text-align: right;
 }
 
 div#contentbody {
@@ -121,6 +121,7 @@ div#contentbody {
 	left: 310px;
 	top: 51px;
 	padding-top: 10px;
+	padding-left: 15px;
 	max-width: 690px;
 	min-width: 250px;
 	z-index: 9;

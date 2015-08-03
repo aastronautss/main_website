@@ -34,16 +34,20 @@ div#topbar {
 
 div#topnav {
 	position: relative;
-	width: 450px;
+	max-width: 1000px;
+	min-width: 450px;
 	height: 50px;
-	margin: auto;
-	text-align: center;
+	left: 5%;
+	text-align: left;
 	
 	color: #9a9a9a;
 }
 
 #topnav ul {
+	position: relative;
 	padding-top: 14px;
+	max-width: 720px;
+	left: 300px;
 }
 
 #topnav ul li {
@@ -63,48 +67,66 @@ li.navactive {
 
 #content {
 	position: absolute;
-	width: 100%;
+	max-width: 1000px;
+	min-width: 450px;
+	min-height: 600px;
+	left: 5%;
+	right: 0;
 }
 
 #pageheader {
-	position: relative;
+	position: absolute;
 	top: 51px;
-	left: 0;
-	right: 0;
-	margin: 25px auto 25px auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 300px;
+	min-width: 200px;
 	text-align: center;
+	/*float: left;*/
+	/*clear: right;*/
 	
 	z-index: 10;
 }
 
 span.headername {
 	color: #666;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 span.headeritalic {
 	color: #aaa;
 	font-family: serif;
-	font-size: 45px;
+	font-size: 35px;
 	font-style: italic;
 	
-	padding-left: 9px;
+	padding-left: 7px;
 	padding-right: 9px;
 }
 
 span.headerjob {
 	color: #888;
-	font-size: 50px;
+	font-size: 40px;
+}
+
+div#leftnav {
+	padding: 20px 10px 0 10px;
+	max-width: 300px;
+	min-width: 200px;
+	text-align: center;
 }
 
 div#contentbody {
-	position: relative;
-	left: 0;
-	right: 0;
-	margin: 85px auto 0 auto;
-	text-align: center;
-	
+	position: absolute;
+	left: 310px;
+	top: 51px;
+	padding-top: 10px;
+	max-width: 690px;
+	min-width: 250px;
 	z-index: 9;
+	
+	color: #333;
+	text-align: left;
 }
 
 img#splash {

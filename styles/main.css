@@ -67,7 +67,7 @@ li.navactive {
 
 #content {
 	position: absolute;
-	max-width: 1000px;
+	max-width: 90%;
 	min-width: 450px;
 	min-height: 600px;
 	left: 5%;
@@ -122,7 +122,6 @@ div#contentbody {
 	top: 51px;
 	padding-top: 10px;
 	padding-left: 15px;
-	max-width: 690px;
 	min-width: 250px;
 	z-index: 9;
 	
@@ -130,7 +129,34 @@ div#contentbody {
 	text-align: left;
 }
 
-img#splash {
-	height: 1000px;
-	width: 1000px;
+#slider {
+	width: 100%;
+	max-height: 90%;
+	overflow: hidden;
+	z-index: 12;
+}
+
+#slider > div.cycleoverlay {
+	position: absolute;
+	cursor: pointer;
+	z-index: 13;
+	height: 600px;
+}
+
+#slider > div.#leftoverlay {
+	width: 30%;
+	left: 0;
+}
+
+#slider > div.#rightoverlay {
+	width: 70%;
+	left: 30%;
+}
+
+#slider > img {
+	max-width: 100%;
+	height: auto;
+	float: left;
+	display: none;
+	z-index: 11;
 }

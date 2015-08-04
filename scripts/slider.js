@@ -3,7 +3,9 @@ var sliderNext = 1;
 var sliderCount = $('#slider').children('img').size() - 1;
 
 $(document).ready(function() {
-	$('#slider').children().first().fadeIn();
+	var $init = $('#slider').children().first()
+	$init.fadeIn();
+	$init.css('z-index', '1')
 });
 
 function prev(){
